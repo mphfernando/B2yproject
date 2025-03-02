@@ -1,0 +1,601 @@
+/* General Reset */
+body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Dark Theme Header */
+.dark-header {
+  background-color: #121212;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  border-bottom: 2px solid #444;
+}
+
+.dark-header .logo h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.dark-header .nav-links a {
+  text-decoration: none;
+  color: #ffffff;
+  margin: 0 15px;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+.dark-header .nav-links a:hover {
+  color: #00bcd4;
+}
+
+.theme-toggle {
+  background-color: #444;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.theme-toggle:hover {
+  background-color: #00bcd4;
+}
+
+
+
+
+
+
+
+/* General Reset */
+body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Hero Section */
+.hero {
+  height: 100vh;
+  background-color: #121212; /* Dark background */
+  color: #ffffff; /* Light text */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url('https://via.placeholder.com/1500'); /* Placeholder background image */
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  flex-direction: column; /* Stacks image and text vertically */
+  height: 100vh;
+  background-color: #333; /* Fallback background color */
+  color: white;
+}
+
+
+.hero-image {
+  width: 100%; /* Adjust as needed */
+  max-height: 75vh;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+
+
+
+/* Overlay for better text visibility */
+.hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6); /* Dark overlay */
+  z-index: 1;
+}
+
+/* Hero Content */
+.hero-content {
+  position: relative;
+  z-index: 2;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin: 0 0 20px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin: 0 0 30px;
+}
+
+/* CTA Button */
+.cta-button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #121212;
+  background-color: #00bcd4; /* Highlight color */
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #0097a7;
+}
+
+
+
+
+
+
+/* General Reset */
+body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+  background-color: #121212; /* Dark background */
+  color: #ffffff; /* Light text */
+}
+
+/* About Us Section */
+.about-us {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 20px;
+  background-color: #1a1a1a; /* Slightly lighter dark background */
+}
+
+.about-us .content {
+  flex: 1 1 400px;
+  max-width: 600px;
+  margin: 20px;
+}
+
+.about-us .content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #00bcd4; /* Highlight color */
+  display: inline-block;
+}
+
+.about-us .content p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.about-us .team-image {
+  flex: 1 1 300px;
+  max-width: 400px;
+  margin: 20px;
+  text-align: center;
+}
+
+.about-us .team-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.7); /* Subtle shadow for depth */
+}
+
+
+
+
+
+
+/* General Reset */
+body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+  background-color: #121212; /* Dark background */
+  color: #ffffff; /* Light text */
+}
+
+/* Section Styling */
+.products {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  border-bottom: 2px solid #00bcd4; /* Accent color */
+  display: inline-block;
+}
+
+/* Product Cards */
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  cursor: pointer;
+}
+
+.product-card {
+  background-color: #1a1a1a; /* Slightly lighter dark background */
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.7); /* Subtle shadow */
+  padding: 20px;
+  max-width: 300px;
+  text-align: left;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.9);
+}
+
+.product-image {
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.product-name {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #00bcd4; /* Accent color */
+}
+
+.product-description {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+.product-price {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #00ff99; /* Price color */
+}
+
+
+
+
+
+/* General Reset */
+body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+  background-color: #121212; /* Dark background */
+  color: #ffffff; /* Light text */
+}
+
+/* Section Styling */
+.process {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  border-bottom: 2px solid #00bcd4; /* Accent color */
+  display: inline-block;
+}
+
+/* Steps Container */
+.process-steps {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Individual Step */
+.step {
+  background-color: #1a1a1a; /* Slightly lighter dark background */
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  max-width: 250px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.step:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.9);
+}
+
+/* Step Icon */
+.icon {
+  background-color: #00bcd4; /* Accent color */
+  color: #121212; /* Contrast with dark background */
+  font-size: 2rem;
+  font-weight: bold;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 15px;
+}
+
+/* Step Title */
+.step-title {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #00bcd4; /* Accent color */
+}
+
+/* Step Description */
+.step-description {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+
+
+
+
+
+/* General Reset */
+body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+  background-color: #121212; /* Dark background */
+  color: #ffffff; /* Light text */
+}
+
+/* Section Styling */
+.sustainability {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  border-bottom: 2px solid #4CAF50; /* Green accent color */
+  display: inline-block;
+}
+
+/* Impact Stats Container */
+.impact-stats {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-bottom: 30px;
+}
+
+/* Individual Stat */
+.stat {
+  background-color: #1a1a1a; /* Slightly lighter dark background */
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 200px;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.7);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.stat:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.9);
+}
+
+/* Stat Value */
+.stat-value {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #4CAF50; /* Green accent color */
+  margin-bottom: 10px;
+}
+
+/* Stat Label */
+.stat-label {
+  font-size: 1.2rem;
+  color: #bbbbbb; /* Lighter text for label */
+}
+
+/* Impact Description */
+.impact-description {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  max-width: 800px;
+  margin: 0 auto;
+  color: #dddddd; /* Lighter text color */
+}
+
+
+
+
+
+
+/* General Reset */
+body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+  background-color: #121212; /* Dark background */
+  color: #ffffff; /* Light text */
+}
+
+/* Section Styling */
+.testimonials {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  border-bottom: 2px solid #4CAF50; /* Green accent color */
+  display: inline-block;
+}
+
+/* Testimonial Cards Container */
+.testimonial-cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+/* Individual Testimonial Card */
+.testimonial-card {
+  background-color: #1a1a1a; /* Slightly lighter dark background */
+  border-radius: 10px;
+  padding: 30px;
+  max-width: 350px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.7);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: left;
+}
+
+.testimonial-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.9);
+}
+
+/* Testimonial Text */
+.testimonial-text {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  color: #dddddd; /* Light gray text */
+  margin-bottom: 20px;
+}
+
+/* Author Section */
+.testimonial-author {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.author-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.author-name {
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.author-role {
+  font-size: 0.9rem;
+  color: #bbbbbb;
+}
+
+
+
+
+
+
+/* General Reset */
+body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Dark Theme Footer */
+.footer {
+  background-color: #1a1a1a; /* Dark background */
+  color: #ccc; /* Light gray text */
+  padding: 40px 20px;
+  text-align: center;
+}
+
+/* Footer Links */
+.footer-links {
+  margin-bottom: 20px;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: #ccc;
+  margin: 0 15px;
+  font-size: 1.1rem;
+  transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+  color: #4CAF50; /* Green accent color */
+}
+
+/* Footer Info */
+.footer-info p {
+  font-size: 0.9rem;
+  color: #888; /* Lighter gray for the copyright text */
+  margin: 0;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  text-align: center;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#contactDetails {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  display: none;
+  width: fit-content;
+}
+
+.hidden {
+  display: none;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.product-image1 {
+  filter: brightness(0.5); /* Reduce brightness (0.5 makes it darker) */
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+

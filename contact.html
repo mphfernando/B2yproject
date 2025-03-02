@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="script.js"></script> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark Theme Header</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="dark-header">
+        <div onclick="window.location.href='index.html';" class="clickable">
+            <h1> REVERDA</h1>
+        </div>
+        <nav class="nav-links">
+            <a href="about.html">About</a>
+            <a href="products.html">Products</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+        <button class="theme-toggle">🌙</button>
+    </header>
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #121212; /* Dark background for the entire page */
+            color: #f8f9fa; /* Light text color */
+            line-height: 1.6;
+        }
+
+        .contact-section {
+            max-width: 800px;
+            margin: 50px auto;
+            text-align: center;
+            padding: 20px;
+            background-color: #1e1e1e; /* Slightly lighter black for the section */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5); /* Subtle shadow for depth */
+            border-radius: 8px;
+        }
+
+        .contact-section h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            color: #4CAF50; /* A vibrant green accent */
+        }
+
+        .contact-section img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5); /* Matches the dark theme */
+        }
+
+        .contact-section p {
+            font-size: 1.2em;
+            margin: 0;
+            padding: 0 10px;
+            color: #ccc; /* Softer text for paragraph */
+        }
+        a {
+    color: white; /* Default color */
+    text-decoration: none; /* Removes underline */
+    transition: color 0.3s ease-in-out; /* Smooth transition */
+        }
+
+a:hover {
+    color: #4CAF50; /* Change to green or any preferred color */
+}
+
+
+    </style>
+</head>
+<body>
+    <div class="contact-section">
+        <h1>Contact Us</h1>
+    <p><strong>Address:</strong> Hapugala,Galle,Sri Lanka</p>
+    <p><strong>Email:</strong> reverda55@gmail.com</p>
+    <p><strong>Phone:</strong> +94 76 201 7683</p>
+    <img src="assets/home.jpg" alt="Contact">
+    </div>
+
+    <div class="footer-content">
+        <div class="footer-links">
+            <a href="index.html" class="footer-link">Home</a>
+            <a href="about.html" class="footer-link">About</a>
+            <a href="#services" class="footer-link">Services</a>
+            <a href="contact.html" class="footer-link">Contact</a>
+        </div>
+        <div class="footer-info">
+            <p>&copy; 2024 REVERDA. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
+

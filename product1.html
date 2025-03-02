@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="script.js"></script> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark Theme Header</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="dark-header">
+        <div onclick="window.location.href='index.html';" class="clickable">
+            <h1> REVERDA</h1>
+        </div>
+        <nav class="nav-links">
+            <a href="about.html">About</a>
+            <a href="products.html">Products</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+        <button class="theme-toggle">🌙</button>
+    </header>
+    <style>
+       /* General Page Style */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #121212; /* Dark background */
+  color: #f8f9fa;
+  line-height: 1.6;
+}
+
+/* Main Product Section */
+.product-section {
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #1e1e1e;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+/* Title */
+.product-section h1 {
+  color: #4CAF50;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+/* Smaller Product Image */
+.product-section img {
+  max-width: 300px; /* Limit image size */
+  height: auto;
+  border-radius: 8px;
+  margin: 20px 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Hover Effect for Image */
+.product-section img:hover {
+  transform: scale(1.1);
+}
+
+/* Product Description */
+.product-section p {
+  font-size: 1.1em;
+  color: #dcdcdc;
+  margin: 10px 0;
+  padding: 0 10px;
+}
+
+/* Button Style */
+.product-button {
+  display: inline-block;
+  margin: 20px 0;
+  padding: 10px 20px;
+  font-size: 1em;
+  color: #f8f9fa;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.product-button:hover {
+  background-color: #45a049;
+}
+ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        li {
+            margin: 10px 0;
+        }
+        .emoji {
+            margin-right: 5px;
+        }
+
+      </style>
+    </head>
+    <body>
+      <!-- Product Section -->
+      <div class="product-section">
+        <h1>Bottle 2 Yarn</h1>
+
+        <video width="840" height="530" autoplay muted loop controls preload="auto">
+          <source src="assets/b2.mp4" type="video/mp4">
+        </video>
+        <h1>♻ About Our Machine</h1>
+        <p>Our <strong>Bottle To Yarn Converter</strong> machine transforms plastic bottles into high-quality yarn, providing an eco-friendly and efficient recycling solution.</p>
+        <img src="assets/machine.jpg" alt="Product 1" class="product-image">
+        <h2>🚀 How It Works</h2>
+        <ul>
+            <li>🔹 <strong>Crushing & Shredding:</strong> Plastic bottles are broken into small pieces.</li>
+            <li>🔹 <strong>Heating & Liquefying:</strong> Shredded plastic is melted for yarn extraction.</li>
+            <li>🔹 <strong>Yarn Formation:</strong> The molten plastic is spun into fibers using a cotton candy mechanism.</li>
+        </ul>
+    
+        <h2>💡 Key Features</h2>
+    
+        <h3>✅ Safety First:</h3>
+        <ul>
+            <li>🔒 <strong>Blade Protection:</strong> Prevents accidental contact with cutting components.</li>
+            <li>🛑 <strong>Emergency Stop Button:</strong> Instantly halts the machine for safety.</li>
+            <li>🌡 <strong>Automatic Overheat Shut-Off:</strong> Prevents damage and ensures safe operation.</li>
+        </ul>
+    
+        <h3>✅ Special Features:</h3>
+        <ul>
+            <li>🏗 <strong>Filter Net:</strong> Removes impurities for high-quality yarn.</li>
+            <li>📏 <strong>Compact Design:</strong> Space-saving and easy to integrate.</li>
+        </ul>
+    
+        <h2>🌍 A Step Towards a Greener Future</h2>
+        <p>By converting plastic waste into valuable yarn, our machine supports sustainability, circular economy practices, and eco-friendly textile manufacturing. Be a part of this revolution!</p>
+        
+        
+        <p>High-quality recycled yarn made from PET bottles.</p>
+        
+      </div>
+</body>
+<footer class="footer">
+    <div class="footer-content">
+        <div class="footer-links">
+            <a href="index.html" class="footer-link">Home</a>
+            <a href="about.html" class="footer-link">About</a>
+            <a href="#services" class="footer-link">Services</a>
+            <a href="contact.html" class="footer-link">Contact</a>
+        </div>
+        <div class="footer-info">
+            <p>&copy; 2024 REVERDA. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+</html>
